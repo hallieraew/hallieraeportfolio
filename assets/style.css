@@ -1,0 +1,12 @@
+.header {
+background-image: url(../assets/images/images/soft_kill/soft_kill.png);
+}
+
+.headerFont {
+    font-family: 'Walter Turncoat', cursive;
+    color: whitesmoke;
+}
+
+p {
+    font-family: 'Darker Grotesque', sans-serif;
+}
