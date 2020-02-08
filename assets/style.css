@@ -33,3 +33,12 @@ p {
     margin:50px;
     background-color: rgba(233, 227, 227, 0.795);
 }
+
+.img1 {
+width: 200px;
+}
+
+.credit {
+    position: relative;
+    z-index: 2;
+}
