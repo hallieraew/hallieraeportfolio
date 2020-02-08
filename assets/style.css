@@ -1,12 +1,35 @@
-.header {
-background-image: url(../assets/images/images/soft_kill/soft_kill.png);
-}
+/* body {
+    z-index: -1;
+} */
 
-.headerFont {
+.jumbo {
+    background-image: url(../assets/images/images/soft_kill/soft_kill.png);
     font-family: 'Walter Turncoat', cursive;
-    color: whitesmoke;
+    color: rgba(233, 227, 227, 0.945);
+    padding: 20px;
+    text-align: center;
 }
 
 p {
     font-family: 'Darker Grotesque', sans-serif;
+    /* color: rgba(233, 227, 227, 0.945); */
+    color: black;
+}
+
+.mainFont {
+    font-family: 'Darker Grotesque', sans-serif;
+    /* color: rgba(233, 227, 227, 0.945); */
+    color: black;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.breakLine {
+    color:rgba(114, 20, 25, 0.842);
+    border: 1px dashed;
+}
+
+.mainPage {
+    margin:50px;
+    background-color: rgba(233, 227, 227, 0.795);
 }
