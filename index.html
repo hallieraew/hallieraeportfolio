@@ -180,20 +180,23 @@
             </div>
         </div>
         <div class="medium-6 columns mainFont">
-            <label>Name
-                <input type="text" placeholder="Name">
+            <form action="https://formspree.io/mjvebwgv" method="POST">
+                <label>Name
+                <input type="text" name="name" placeholder="Name">
             </label>
-            <label>Email
-                <input type="text" placeholder="Email">
+                <label>Email
+                <input type="text" name="_replyto" placeholder="Email">
             </label>
-            <label>
+                <label>
                 Message
-                <textarea placeholder="Shoot me a message!"></textarea>
+                <textarea name="message" placeholder="Shoot me a message!"></textarea>
             </label>
-            <input type="submit" class="button expanded buttonColor" value="Submit">
+                <label>
+                <button class="button expanded buttonColor" type="submit">Send</button>
+            </form>
+        </div>
         </div>
     </div>
-</div>
 </div>
 </div>
 </div>
